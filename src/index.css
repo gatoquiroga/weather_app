@@ -1,0 +1,20 @@
+body {
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,input{
+  font-family: 'Lato', sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root{
+  --border-color: #8ecae6;
+  --btn-bkg-danger:#e63946;
+  --btn-bkg-danger-hover:#7f1019;
+}

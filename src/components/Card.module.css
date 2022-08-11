@@ -1,0 +1,56 @@
+.card{
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.25rem;
+}
+
+.cardBtn{
+    position: absolute;
+    top:0.25rem;
+    right: 0.25rem;
+    
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 1.5rem;
+    
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    
+    cursor: pointer;
+    
+    color:white;
+    background-color: var(--btn-bkg-danger);
+    
+    transition: background-color 250ms;
+}
+
+.cardBtn:hover{
+    background-color: var(--btn-bkg-danger-hover);
+}
+
+.card> section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.name{
+    font-size: 1.75rem;
+    font-weight: 1.5;
+}
+.mainCard{
+    border-color: transparent;
+}
+
+.mainCard .cardBtn{
+    display: none;
+}
+
+.mainCard.name{
+    font-size: 5rem;
+    color:white;     
+}
